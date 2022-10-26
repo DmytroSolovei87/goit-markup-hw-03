@@ -8,6 +8,45 @@
   --filters-button-bcg-color-focus: #2196f3;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+address {
+  font-style: normal;
+}
+button {
+  font-family: inherit;
+  padding: 0;
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* цвет основного текста #757575 */
 /* вторичній цвет текста #212121 */
 /* акцент #2196F3 */
@@ -34,11 +73,11 @@ a {
   text-decoration: none;
 }
 
-.page-header .conteiner {
+.conteiner {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0, auto;
+  margin: 0 auto;
   outline: 2px solid tomato;
 }
 
@@ -60,6 +99,10 @@ a {
 .logo .accent-footer {
   color: #ffffff;
 }
+.footer-logo {
+  margin-bottom: 20px;
+}
+
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
@@ -115,9 +158,12 @@ a {
 /* стили для "студия" */
 /* hero */
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #2f303a;
 }
 .hero .title {
+  margin-bottom: 30px;
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
@@ -139,6 +185,10 @@ a {
   border-radius: 4px;
 }
 /* section features*/
+.features {
+  margin-bottom: 10px;
+}
+
 .section-features .title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -154,6 +204,7 @@ a {
 
 /* section work */
 .section-work .title {
+  margin-bottom: 50px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -162,7 +213,16 @@ a {
 }
 
 /* section team */
+.user-img {
+  margin-bottom: 30px;
+}
+
+.user-title {
+  margin-bottom: 10px;
+}
+
 .team-title {
+  margin-bottom: 50px;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -187,7 +247,15 @@ a {
 
 /* стили для "портфолио" */
 /* filters page portfolio */
-.cursors .pointer {
+.filter-list {
+  margin-bottom: 50px;
+  outline: 2px solid tomato;
+}
+
+.filter-list .filter-btn {
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: transparent;
   color: var(--filters-button-color);
   background-color: var(--filters-button-bcg-color);
   font-weight: 500;
@@ -195,16 +263,29 @@ a {
   line-height: 1.62;
   text-align: center;
 }
-.cursors .pointer:hover,
-.cursors .pointer:focus {
+.filter-list .filter-btn:hover,
+.filter-list .filter-btn:focus {
+  padding: 6px 25px;
+  border: transparent;
   color: var(--filters-button-color-hover);
   background-color: var(--filters-button-bcg-color-focus);
 }
-.pointer {
+.filter-btn {
   cursor: pointer;
 }
 
 /* projects */
+.projects-item {
+  margin-bottom: 30px;
+}
+
+.sub-title {
+  padding: 20px 24px;
+}
+
+.section-title {
+  margin-bottom: 4px;
+}
 .projects .title {
   color: var(--title-text-color);
   font-weight: 700;
