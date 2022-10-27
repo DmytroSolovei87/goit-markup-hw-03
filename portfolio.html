@@ -15,41 +15,44 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body class="page">
+  <body>
     <!-- основна навігація -->
     <!-- хедер -->
+    <!-- основна навігація -->
     <header class="page-header">
       <div class="conteiner">
-        <nav>
+        <nav class="nav-menu">
           <a href="./index.html" class="logo"
             >Web<span class="accent">Studio</span></a
           >
           <ul class="site-nav">
-            <li><a href="./index.html" class="link">Студія</a></li>
-            <li>
-              <a href="./portfolio.html" class="link current">Портфоліо</a>
+            <li class="item">
+              <a href="./index.html" class="link current">Студія</a>
             </li>
-            <li><a href="" class="link">Контакти</a></li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Портфоліо</a>
+            </li>
+            <li class="item"><a href="" class="link">Контакти</a></li>
+          </ul>
+          <ul class="contacts">
+            <li class="item">
+              <a href="mailto:info@devstudio.com" class="link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="item">
+              <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+            </li>
           </ul>
         </nav>
-        <ul class="contacts">
-          <li>
-            <a href="mailto:info@devstudio.com" class="link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-          </li>
-        </ul>
       </div>
     </header>
 
     <!-- портфоліо -->
-    <main>
+    <main class="page">
       <section class="section">
         <div class="conteiner">
-          <h1 class="section-title">Портфоліо</h1>
+          <h1 class="visible-hidden">Портфоліо</h1>
 
           <!-- фільтр -->
           <ul class="filter-list">
@@ -144,23 +147,27 @@
 
     <!--футер -->
     <footer class="page-footer">
-      <div class="conteiner">
+      <div class="conteiner footer-conteiner">
         <a href="./index.html" class="logo footer-logo"
           >Web<span class="accent-footer">Studio</span></a
         >
         <address class="address">
           <ul>
-            <li>
+            <li class="footer-link">
               <a
                 href="https://goo.gl/maps/Py5ExuETCazi23TDA"
-                currenttarget="_blank"
+                target="_blank"
                 rel="noopener noreferrer"
                 class="link-address"
                 >м. Київ, пр-т Лесі Українки, 26</a
               >
+            </li>
+            <li class="footer-link">
               <a href="mailto:info@devstudio.com" class="link"
                 >info@devstudio.com</a
               >
+            </li>
+            <li class="footer-link">
               <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
             </li>
           </ul>
