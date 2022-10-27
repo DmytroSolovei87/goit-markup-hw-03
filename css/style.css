@@ -79,7 +79,6 @@ a {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid tomato;
 }
 
 /* стили для хедер */
@@ -349,7 +348,6 @@ a {
   gap: 8px;
   margin-bottom: 50px;
   justify-content: center;
-  outline: 2px solid tomato;
 }
 
 .filter-btn {
@@ -382,6 +380,7 @@ a {
 
 .projects-item {
   width: 370px;
+  border: 1px solid #eeeeee;
 }
 
 .sub-title {
